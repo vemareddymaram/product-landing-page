@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>The Hands of Time</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+        <link rel="stylesheet" href="landing_page.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css" integrity="sha384-BY+fdrpOd3gfeRvTSMT+VUZmA728cfF9Z2G42xpaRkUGu2i3DyzpTURDo5A6CaLK" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous"/>
+    </head>
+    <body>
+        <!-- Header start -->
+        <!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-body-tertiary">
+    <!-- Container wrapper -->
+    <div class="container-fluid">
+      
+      <!-- Toggle button -->
+      <a class="navbar-brand mt-2 me-auto mt-lg-0" href="#">
+        <img
+          src="images/titan-logo.svg"
+          height="24"
+          alt="Titan Logo"
+          loading="lazy"
+        />
+      </a>
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Titan</h5>
+        <button type="button" class="btn-close" id="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <ul class="navbar-nav justify-content-center flex-grow-1 pe-3">
+          <!-- Link-1 -->
+          <li class="nav-item">
+            <a class="nav-link mx-lg-2" id="nav-link" aria-current="page" href="#sec1">Home</a>
+          </li>
+          <!-- Link-2 -->
+          <li class="nav-item">
+            <a class="nav-link mx-lg-2" id="nav-link" href="#sec3">Features</a>
+          </li>
+          <!-- Link-3 -->
+          <li class="nav-item">
+            <a class="nav-link mx-lg-2" id="nav-link" href="#sec4">About</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!-- Right elements -->
+    <div class="d-flex align-items-center">
+      <!-- Cart -->
+      <a class="text-reset me-3" href="#">
+        <i class="bi bi-cart-fill fa-lg" id="nav-icon" title="Cart"></i> 
+      </a>
+
+      <!-- Notifications -->
+      <div class="d-flex align-items-center">
+        <a class="text-reset me-3" href="#">
+          <i class="bi bi-bell-fill fa-lg" id="nav-icon" title="Notifications"></i> 
+        </a>
+      </div>
+      <!-- Avatar -->
+      <div class="d-flex align-items-center">
+        <a class="text-reset me-3" href="#">
+          <i class="bi bi-person-fill fa-lg" id="nav-icon" title="User"></i>
+        </a>
+      </div>
+    </div>
+    <button class="navbar-toggler pe-0" id="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    </div>
+    <!-- Container wrapper -->
+  </nav>
+  <!-- Navbar -->
+  <!-- Header end -->
+  <!--Main Start-->
+  <main>
+    <!-- Product section -->
+    <section class="py-5 pb-0 pt-4" id="sec1">
+      <div class="container px-4 px-lg-5 my-5">
+        <div class="row gx-4 gx-lg-5 align-items-center">
+          <div class="col-md-6">
+            <!-- Carousel image slider -->
+            <div id="carouselExampleFade" class="carousel slide carousel-fade">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="images/Watch1.png" class="d-block w-100" alt="watch1">
+                </div>
+                <div class="carousel-item">
+                  <img src="images/watch2.png" class="d-block w-100" alt="watch2">
+                </div>
+                <div class="carousel-item">
+                  <img src="images/watch3.png" class="d-block w-100" alt="watch3">
+                </div>
+                <div class="carousel-item">
+                  <img src="images/watch4.png" class="d-block w-100" alt="watch4">
+                </div>
+                <div class="carousel-item">
+                  <img src="images/watch5.png" class="d-block w-100" alt="watch5">
+                </div>
+                <div class="carousel-item">
+                  <img src="images/watch6.png" class="d-block w-100" alt="watch6">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+            <!-- Carousel image slider end -->
+          </div>
+          <div class="col-md-6" id="heading-div">
+            <div class="small mb-1" id="small">1805QM01</div>
+            <h1 class="m-0 product-name-heading" id="heading">Titan Men's Chronograph - Neo Splash: Suave Blue Fashion Watch</h1>
+            <div class="fs-5 mb-5">
+              <span class="seo-tag">Men's Watch</span>
+            </div>
+            <div class="d-flex">
+              <!-- <input8 class="form-control text-center me-3" id="inputQuantity" type="num" value="1" style="max-width: 3rem;"> -->
+              <button class="btn btn-outline-dark flex-shrink-0" id="btn" type="button">
+                Buy now
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Marketing section -->
+    <section class="py-5 pb-3 pt-3 bg-light" id="sec2">
+      <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-6 col-md-3 col-md-3 pl-1 pr-1">
+                <img src="images/lwatch.png" alt="1" style="width:100%; height:100%;" class="img-responsive" />
+            </div>
+            <div class="col-md-6 col-md-3 col-md-3 pl-1 pr-1">
+                <img src="images/rwatch.png" alt="1" style="width:100%; height:100%;" class="img-responsive"/>
+            </div>
+        </div>
+      </div>
+    </section>
+    <!-- Marketing section end -->
+    <!-- Features section -->
+    <section class="py-5 pb-2 pt-1" id="sec3">
+      <div class="container px-4 px-lg-5 mt-5">
+        <h2 class="product-features mb-4 text-center" id="features">Features</h2>
+        <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+          <!-- Card-1 -->
+          <div class="col mb-5">
+            <div class="card h-100" id="card">
+              <img src="images/Watch1.png" class="card-img-top" alt="watch1">
+              <div class="card-body p-4">
+                <div class="text-center">
+                  <h5 class="fw-bolder">Blue Metal Dial</h5>
+                  <p id="card_text">for sophistication and excellent readability</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Card-1 end -->
+          <!-- Card-2 -->
+          <div class="col mb-5">
+            <div class="card h-100" id="card">
+              <img src="images/watch4.png" class="card-img-top" alt="watch4">
+              <div class="card-body p-4">
+                <div class="text-center">
+                  <h5 class="fw-bolder">Sporty Blue Metal Strap</h5>
+                  <p id="card_text">for comfort and a casual look</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Card-2 end -->
+          <!-- Card-3 -->
+          <div class="col mb-5">
+            <div class="card h-100" id="card">
+              <img src="images/watch6.png" class="card-img-top" alt="watch6">
+              <div class="card-body p-4">
+                <div class="text-center">
+                  <h5 class="fw-bolder">5 ATM Water Resistance</h5>
+                  <p id="card_text">makes it suitable for most water-related activities</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Card-3 end -->
+        </div>
+      </div>
+    </section>
+    <!-- Features section end -->
+    <!-- Services section -->
+    <section class="py-5 bg-light pb-3 pt-1 mt-3 mb-3" id="sec4">
+      <div class="container d-flex text-center justify-content-around">
+        <div class="item">
+          <img src="icons/Gurantee.svg" class="img-fluid" alt="Gurantee Icon">
+          <p class="mb-0 mt-2" id="sec4_text">100&percnt; ORIGINAL</p>
+        </div>
+        <div class="item">
+          <img src="icons/Return.svg" class="img-fluid" alt="Return Icon">
+          <p class="mb-0 mt-2" id="sec4_text">7 DAY RETURN</p>
+        </div>
+        <div class="item">
+          <img src="icons/Shipping.svg" class="img-fluid" alt="Shipping Icon">
+          <p class="mb-0 mt-2" id="sec4_text">FREE SHIPPING</p>
+        </div>
+      </div>
+    </section>
+    <!-- Services section end -->
+  </main>
+  <!--Main end-->
+  <!--footer start-->
+<footer id="footer">
+  <div class="footer-wrap">
+  <div class="container first_class">
+      <div class="row">
+        <!-- Newsletter -->
+        <div class="col-md-4 col-sm-6">
+          <h3>BE THE FIRST TO KNOW</h3>
+          <p>Subscribe to get all the latest information and exclusive offers. Sign up for our newsletter today.</p>
+        </div>
+        <div class="col-md-4 col-sm-6">
+        <form class="newsletter">
+           <input type="text" placeholder="Email Address"> 
+                                                        <button class="newsletter_submit_btn" type="submit"><i class="fa fa-paper-plane"></i></button>  
+        </form>
+        
+        </div>
+        <!-- Newsletter -->
+        <!-- Social media -->
+        <div class="col-md-4 col-sm-6">
+        <div class="col-md-12">
+          <div class="standard_social_links">
+        <div>
+          <li class="round-btn btn-facebook"><a href="#"><i class="fab fa-facebook-f"></i></a>
+
+          </li>
+          <li class="round-btn btn-linkedin"><a href="#"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a>
+
+          </li>
+          <li class="round-btn btn-twitter"><a href="#"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+
+          </li>
+          <li class="round-btn btn-instagram"><a href="#"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+
+          </li>
+          <li class="round-btn btn-whatsapp"><a href="#"><i class="fab fa-whatsapp" aria-hidden="true"></i></a>
+
+          </li>
+          <li class="round-btn btn-envelop"><a href="#"><i class="fa fa-envelope" id="envelope" aria-hidden="true"></i></a>
+
+          </li>
+        </div>
+      </div>  
+        </div>
+        </div>
+        <!-- Social media -->
+      </div>
+  </div>
+  <!-- Copyright -->
+  <div class="row">
+    <div class="container-fluid">
+    <div class="copyright"><p style="display: inline;">&copy; Copyright 2023 | All Rights Reserved by Titan Ltd.</p><p id="t_c" style="margin-right: 25px; display: inline;">&emsp;&emsp;&emsp;&emsp;Privacy Policy | Terms & Conditions</p></div>
+    </div>
+    
+  </div>
+  <!-- Copyright -->
+</div>
+
+</footer>
+<!-- footer end -->
+
+<script src="https://kit.fontawesome.com/55e900593b.js" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    </body>
+</html>
