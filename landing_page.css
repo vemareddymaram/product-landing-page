@@ -58,7 +58,7 @@ html{
 
 @media (max-width: 991px){
 
-  .container-fluid a{
+  #logo{
     padding-left: 12px;
   }
   
