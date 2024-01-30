@@ -56,6 +56,17 @@ html{
 }
 }
 
+@media (max-width: 991px){
+
+  .container-fluid a{
+    padding-left: 12px;
+  }
+  
+  #nav-link{
+    padding-left: 12px;
+  }
+}
+
 #nav-icon{
   color: #434348;
   padding: auto;
